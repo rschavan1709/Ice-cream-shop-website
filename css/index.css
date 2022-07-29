@@ -1,0 +1,78 @@
+nav{
+    background-color: #bfbfbf;
+    height: 55px;  
+    
+  }
+  #topnav{
+    position: fixed; 
+    top: 0px;
+    left: 0px;
+    width: 100%; 
+    
+  }
+  nav ul{
+     list-style-type: none; display: flex; float:right; margin-right: 20px;
+  }
+  nav li{
+      text-indent: 30px;
+      font-size: 35px;
+      
+  }
+  @font-face{
+      font-family: FirstFont;
+      src: url(../HelloGraduationSans-d9enl.ttf);
+  }
+  #topnav a{
+      text-decoration: none;
+      color: black;
+      text-align: center;
+      font-family: FirstFont;
+  }
+  body{
+      background-image: url(../Images/backgroundimg.jpg);
+      background-repeat: no-repeat;
+      background-size: 1370px 657px;
+  }
+  #topnav1{
+      
+      text-align: left;
+  }
+  div>h2{
+      text-align:right;
+      margin-top: 120px;
+      margin-right: 60px;
+      font-size: 45px;
+      color: #FFBF34;
+      font-family: Lucida Calligraphy;
+  }
+  div>p{
+      text-align:right;
+      margin-top: 40px;
+      margin-right: 100px;
+      font-size: 20px;
+      color: white;
+      font-family: monospace;
+  }
+  img{
+      height: 70px;
+      width: 70px;
+      margin-left: 1000px;
+      margin-top: 25px;
+  }
+  h4{
+      text-align:right;
+      margin-top: 15px;
+      margin-right: 263px;
+      font-size: 15px;
+      color: white;
+      font-family: cursive;
+  }
+  #left{
+      float:left;
+      font-family:Harlow Solid;
+      font-size: 30px;
+      margin-top: 10px;
+  }
+  #button:hover{
+      color:#FFBF34;
+  }

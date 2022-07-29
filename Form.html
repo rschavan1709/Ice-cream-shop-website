@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Order Form</title>
+    <link rel="icon" href="Images/kulfi.png">
+    <link rel="stylesheet" href="css/Form.css">
+</head>
+<body>
+    <div>
+    <nav id="topnav">
+        <ul id="left">
+            <li> Cool Cafe </li>
+        </ul>
+        <ul>
+            <li><a id="button" href="index.html">Home</a></li>
+            <li> <a id="button" href="About us.html">About Us</a> </li>
+            <li><a id="button" href="Flavours.html"> Flavours </a></li>
+            <li><a id="button" href="Contact Us.html">Contact Us </a></li>
+        </ul>
+    </nav>
+    <img src="Images/pista-kulfi_recipe-5.jpg">
+    <section>
+        <h1> Order Now </h1> <br>
+    <form action="Orderplace.html" onsubmit="return validateForm()" novalidate>
+        <table>
+            <tr><td> <label for="fullname"> Full Name: </label></td>
+                <td><input id="fullname" name="myName" onblur="validate1()" ></td></tr>
+            <tr><td></td><td id="err1"></td></tr>
+            <tr><td> <label for="address"> Address: </label></td> 
+                <td><textarea rows="5" cols="21" id="address" onblur="validate2()"></textarea></td></tr>
+            <tr><td></td><td id="err2"></td></tr>
+            <tr><td><label for="contactno"> Contact Number: </label></td> 
+                <td><input id="contactno"   type="tel"  onblur="validate3()"></td></tr>
+            <tr><td></td><td id="err3"></td></tr>
+            <tr><td> <label for="emailid"> Email Id: </label></td> 
+                <td><input type="email"  id="emailid"   onblur="validate4()"></td></tr>
+            <tr><td></td><td id="err4"></td></tr>
+            <tr><td> <label for="yourreq"> Your Requirements : </label></td> 
+                <td><textarea rows="5" cols="21" id="yourreq" onblur="validate5()"></textarea></td></tr>
+            <tr><td></td><td id="err5"></td></tr> 
+            <tr><td></td><td> <input type="submit" value="Submit"> </td></tr>
+        </table>
+    </form>
+    </section>
+    </div>
+    <script src="js/validate.js"></script>
+</body>
+</html>
